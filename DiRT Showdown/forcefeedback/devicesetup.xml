@@ -44,6 +44,7 @@
   <FFBDevice name="Microsoft SideWinder Force Feedback Wheel (USB)"   scaleForce="1.0" scaleFriction="0.25" baseFriction="0.0" maxFriction="25.0" scaleEffects="1.0" delay="0.0"/>
   <FFBDevice name="F430 Force Feedback"   						      scaleForce="1.0" scaleFriction="0.9" baseFriction="-15.0" maxFriction="90.0" scaleEffects="1.0" delay="0.0"/>
   <FFBDevice name="Thrustmaster T500 RS Racing wheel"   			  scaleForce="0.6" scaleFriction="0.35" baseFriction="0.0" maxFriction="35.0" scaleEffects="0.85" delay="0.0"/>
+  <FFBDevice name="Thrustmaster T300 RS Racing wheel"   			  scaleForce="0.6" scaleFriction="0.35" baseFriction="0.0" maxFriction="35.0" scaleEffects="0.85" delay="0.0"/>
   <FFBDevice name="RGT Force Feedback Pro"          				  scaleForce="1.0" scaleFriction="0.6" baseFriction="-25.0" maxFriction="60.0" scaleEffects="1.0" delay="0.0"/>
 
   <!-- Wheels Japanese OS -->

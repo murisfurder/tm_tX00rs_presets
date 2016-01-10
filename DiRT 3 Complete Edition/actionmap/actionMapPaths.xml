@@ -36,6 +36,7 @@
     <xmlreader processor="ActionMap2" filename="actionmap/ms_sidewinder_wheel_usb_32_bit.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />
     <xmlreader processor="ActionMap2" filename="actionmap/nk_airflo.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />
     <xmlreader processor="ActionMap2" filename="actionmap/tm_t500rs.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />
+    <xmlreader processor="ActionMap2" filename="actionmap/tm_t300rs.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />
     <xmlreader processor="ActionMap2" filename="actionmap/tm_dual_analog_3.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />
     <xmlreader processor="ActionMap2" filename="actionmap/tm_dual_trigger_3_in_1.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />
     <xmlreader processor="ActionMap2" filename="actionmap/tm_ferrari_430_force_feedback.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />

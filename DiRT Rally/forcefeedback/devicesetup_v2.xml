@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FFBDevices>
+
+	<!-- Device setup for force feedback
+	This file holds the list of predefined device setups.
+		name          = Device name to display
+		scaleForce    = scale of linear wheel forces on this device
+		scaleFriction = scale of friction forces on this device
+	-->
+
+	<!-- Default Devices -->
+	<FFBDevice name="default" scaleFriction="1.0" scaleForce="1.0"/>
+
+	<!-- Controllers -->
+	<!-- XInput joypad -->
+	<FFBDevice name="xinput_pad" scaleForce="1.0"/>
+	<!-- XInput Speed Wheel -->
+	<FFBDevice name="xinput_speed_wheel" scaleForce="10.0"/>
+	<!-- Logitech Cordless RumblePad 2 (F710) -->
+	<FFBDevice name="{C219046D-0000-0000-0000-504944564944}" scaleForce="1.0"/>
+	<!-- Logitech RumblePad 2 (F510) -->                                 
+	<FFBDevice name="{C218046D-0000-0000-0000-504944564944}" scaleForce="1.0"/>
+	<!-- Thrustmaster Dual Trigger 3-in-1 -->                            
+	<FFBDevice name="{B323044F-0000-0000-0000-504944564944}" scaleForce="1.0"/>
+	<!-- Thrustmaster Run 'N' Drive Rumble Force -->                     
+	<FFBDevice name="{D003044F-0000-0000-0000-504944564944}" scaleForce="1.0"/>
+	<!-- Thrustmaster Run 'N' Drive Wireless -->                         
+	<FFBDevice name="{D008044F-0000-0000-0000-504944564944}" scaleForce="1.0"/>
+	<!-- Thrustmaster T-Mini Wireless 3-in-1 -->                         
+	<FFBDevice name="{D007044F-0000-0000-0000-504944564944}" scaleForce="1.0"/>
+	<!-- Race Star Grid2 Pad Wheel -->                                   
+	<FFBDevice name="{00080E8F-0000-0000-0000-504944564944}" scaleForce="1.0"/>
+
+	<!-- Wheels -->
+	<!-- SimSteering Wheel - Note: Recommend starting with a scaleForce of 0.5 until comfortable with the scale of the force -->
+	<FFBDevice name="{22301DD2-0000-0000-0000-504944564944}" scaleFriction="1.0" scaleForce="0.5"/>
+
+	<!-- SimXperience AccuForce Pro -->
+	<FFBDevice name="{804C1FC9-0000-0000-0000-504944564944}" scaleFriction="1.0" scaleForce="1.0"/>
+
+	<!-- XInput wheel -->
+	<FFBDevice name="xinput_wheel" scaleForce="1.0"/>
+	<!-- Microsoft Sidewinder FFB Wheel -->
+	<FFBDevice name="{0034045E-0000-0000-0000-504944564944}" scaleFriction="1.0" scaleForce="1.0"/>
+
+	<!-- Logitech G25 -->
+	<FFBDevice name="{C299046D-0000-0000-0000-504944564944}" scaleFriction="1.0"  scaleForce="1.0"/>
+	<!-- Logitech G27 -->
+	<FFBDevice name="{C29B046D-0000-0000-0000-504944564944}" scaleFriction="1.0"  scaleForce="1.0"/>
+	<!-- Logitech G29 -->
+	<FFBDevice name="{C24F046D-0000-0000-0000-504944564944}" scaleFriction="1.0"  scaleForce="1.0"/>
+	<!-- Logitech Driving Force GT -->
+	<FFBDevice name="{C29A046D-0000-0000-0000-504944564944}" scaleFriction="1.0"  scaleForce="1.0"/>
+	<!-- Logitech Driving Force Pro -->
+	<FFBDevice name="{C298046D-0000-0000-0000-504944564944}" scaleFriction="0.15"  scaleForce="1.0"/>
+	<!-- Logitech Driving/Formula Force EX -->
+	<FFBDevice name="{C294046D-0000-0000-0000-504944564944}" scaleFriction="1.0" scaleForce="1.0"/>
+	<!-- Logitech Momo Racing -->
+	<FFBDevice name="{CA03046D-0000-0000-0000-504944564944}" scaleFriction="0.15" scaleForce="1.0"/>
+
+	<!-- Fanatec CSR Elite Wheel -->
+	<FFBDevice name="{00110EB7-0000-0000-0000-504944564944}" scaleFriction="1.0"  scaleForce="1.0"/>
+	<!-- Fanatec Porsche Wheel -->
+	<FFBDevice name="{01970EB7-0000-0000-0000-504944564944}" scaleFriction="1.0"  scaleForce="1.0"/>
+	<!-- Fanatec CS Wheel Base -->
+	<FFBDevice name="{038E0EB7-0000-0000-0000-504944564944}" scaleFriction="1.0"  scaleForce="1.0"/>
+	<!-- Fanatec CS Wheel Base v2 -->
+	<FFBDevice name="{00010EB7-0000-0000-0000-504944564944}" scaleFriction="1.0"  scaleForce="1.0"/>
+
+	<!-- Thrustmaster TX -->
+	<FFBDevice name="{B669044F-0000-0000-0000-504944564944}" scaleFriction="1.0"  scaleForce="1.0"/>
+	<!-- Thrustmaster F430 Force Feedback -->
+	<FFBDevice name="{B65A044F-0000-0000-0000-504944564944}" scaleFriction="1.0"  scaleForce="1.0"/>
+	<!-- Thrustmaster T300 RS -->
+	<FFBDevice name="{B66E044F-0000-0000-0000-504944564944}" scaleFriction="1.0"  scaleForce="1.0"/>
+	<!-- Thrustmaster T500 RS -->
+	<FFBDevice name="{B65E044F-0000-0000-0000-504944564944}" scaleFriction="0.6"  scaleForce="1.0"/>
+	<!-- Thrustmaster T500 RS F1 -->
+	<FFBDevice name="{B662044F-0000-0000-0000-504944564944}" scaleFriction="0.6"  scaleForce="1.0"/>
+	<!-- Thrustmaster RGT Force Feedback Pro -->
+	<FFBDevice name="{B653044F-0000-0000-0000-504944564944}" scaleFriction="1.0"  scaleForce="1.0"/>
+	<!-- Thrustmaster FGT Rumble 3-in-1 -->
+	<FFBDevice name="{B655044F-0000-0000-0000-504944564944}" scaleFriction="1.0"  scaleForce="1.0"/>
+
+
+</FFBDevices>

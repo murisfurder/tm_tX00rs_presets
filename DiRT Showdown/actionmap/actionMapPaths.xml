@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataset>
+    <xmlreader processor="ActionMap2" filename="actionmap/dinput_default.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />
+    <xmlreader processor="ActionMap2" filename="actionmap/lg_cordless_rumblepad_2.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />
+    <xmlreader processor="ActionMap2" filename="actionmap/lg_driving_force_gt_usb.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />
+    <xmlreader processor="ActionMap2" filename="actionmap/lg_dual_action.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />
+    <xmlreader processor="ActionMap2" filename="actionmap/lg_rumblepad_2.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />
+    <xmlreader processor="ActionMap2" filename="actionmap/lg_g25.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />
+    <xmlreader processor="ActionMap2" filename="actionmap/lg_g27.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />
+    <xmlreader processor="ActionMap2" filename="actionmap/lg_rumblepad_2_usb.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />
+    <xmlreader processor="ActionMap2" filename="actionmap/lg_rus_dual_action.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />
+    <xmlreader processor="ActionMap2" filename="actionmap/tm_t500rs.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />
+    <xmlreader processor="ActionMap2" filename="actionmap/tm_dual_analog_3.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />
+    <xmlreader processor="ActionMap2" filename="actionmap/tm_dual_trigger_3_in_1.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />
+    <xmlreader processor="ActionMap2" filename="actionmap/tm_ferrari_430_force_feedback.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />
+    <xmlreader processor="ActionMap2" filename="actionmap/tm_ferrari_gt_rumble_3_in_1.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />
+    <xmlreader processor="ActionMap2" filename="actionmap/tm_rgt_ffb_pro.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />
+    <xmlreader processor="ActionMap2" filename="actionmap/tm_run_n_drive_rumble_force.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />
+    <xmlreader processor="ActionMap2" filename="actionmap/tm_run_n_drive_wireless.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />
+    <xmlreader processor="ActionMap2" filename="actionmap/tm_t_mini_wireless_3_in_1.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />
+    <xmlreader processor="ActionMap2" filename="actionmap/tm_universal_challenge.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />
+    <xmlreader processor="ActionMap2" filename="actionmap/wm_keyboard.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />
+    <xmlreader processor="ActionMap2" filename="actionmap/xinput_pad.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />
+    <xmlreader processor="ActionMap2" filename="actionmap/xinput_wheel.xml" map="UPDATE" pool="UPDATE_TEMPORARY" />
+</dataset>

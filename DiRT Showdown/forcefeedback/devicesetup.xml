@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<FFBDevices>
+	<!-- Device setup for force feedback
+	This file holds the list of predefined device setups.
+	         name= Device name to display
+	   scaleForce= scale of linear wheel forces on this device
+	scaleFriction= scale of friction forces on this device
+   baseFriction= base friction value, can be negative for even lighter feel
+    maxFriction= upper cap of friction values sent to device
+	 scaleEffects= scale of effects' forces
+	        delay= delay of force feedback in seconds-->
+
+  <!-- Default Devices -->
+  <FFBDevice name="default" scaleForce="1.0" scaleFriction="1.0" baseFriction="0.0" maxFriction="10.0" nativeFriction="0" scaleEffects="1.0" delay="0.0"/>
+
+  <!-- Controllers -->
+  <FFBDevice name="xinput_pad" 							 	scaleEffects="1.0"/>
+  <FFBDevice name="Logitech Cordless RumblePad 2" 		 	scaleEffects="2.0"/>
+  <FFBDevice name="Logitech Rumblepad 2 USB" 			 	scaleEffects="2.0"/>
+  <FFBDevice name="Logitech Cordless RumblePad 2 USB" 	 	scaleEffects="4.0"/>
+  <FFBDevice name="Logitech RumblePad 2 USB" 			 	scaleEffects="2.5"/>
+  <FFBDevice name="Dual Trigger 3-in-1" 				 	scaleEffects="5.0"/>
+  <FFBDevice name="Run'N' Drive Rumble Force" 			 	scaleEffects="2.0"/>
+  <FFBDevice name="Run'N' Drive Wireless" 				 	scaleEffects="3.0"/>
+  <FFBDevice name="Thrustmaster T-Mini Wireless 3-in-1"  	scaleEffects="5.0"/>
+
+  <!-- Controllers Japanese OS -->
+  <FFBDevice name="Logicool Cordless RumblePad 2" 		 	scaleEffects="10.0"/>
+  <FFBDevice name="Logicool Rumblepad 2 USB" 			 	scaleEffects="2.0"/>
+  <FFBDevice name="Logicool Cordless RumblePad 2 USB" 	 	scaleEffects="10.0"/>
+  <FFBDevice name="Logicool RumblePad 2 USB" 			 	scaleEffects="2.0"/>
+
+  <!-- Wheels-->
+  <FFBDevice name="xinput_wheel"   									  scaleEffects="3.0"/>
+  <FFBDevice name="Logitech G25 Racing Wheel USB"   				  scaleForce="1.0" scaleFriction="1.0" baseFriction="0.0" maxFriction="100.0" scaleEffects="1.0" delay="0.0"/>
+  <FFBDevice name="Logitech G27 Racing Wheel USB"   				  scaleForce="1.0" scaleFriction="1.0" baseFriction="0.0" maxFriction="100.0" scaleEffects="1.0" delay="0.0"/>
+  <FFBDevice name="Logitech Driving Force GT USB"   				  scaleForce="1.0" scaleFriction="1.0" baseFriction="0.0" maxFriction="100.0" scaleEffects="1.0" delay="0.0"/>
+  <FFBDevice name="Logitech Driving Force Pro USB"  				  scaleForce="0.75" scaleFriction="0.2" baseFriction="0.0" maxFriction="20.0"  scaleEffects="1.0" delay="0.0"/>
+  <FFBDevice name="Logitech Driving Force USB"   					  scaleForce="0.7" scaleFriction="0.05" baseFriction="0.0" maxFriction="5.0" scaleEffects="1.0" delay="0.0"/>
+  <FFBDevice name="Logitech MOMO Racing USB"   						  scaleForce="1.0" scaleFriction="0.25" baseFriction="0.0" maxFriction="25.0" scaleEffects="1.0" delay="0.0"/>
+  <FFBDevice name="FGT Rumble 3-in-1"   							  scaleForce="1.0" scaleFriction="1.0" baseFriction="0.0" maxFriction="100.0" scaleEffects="1.0" delay="0.0"/>
+  <FFBDevice name="Porsche Wheel"   							      scaleForce="1.0" scaleFriction="0.6" baseFriction="-25.0" maxFriction="60.0" scaleEffects="1.2" delay="0.0"/>
+  <FFBDevice name="SideWinder Force Feedback Wheel (USB)"   		  scaleForce="1.0" scaleFriction="0.25" baseFriction="0.0" maxFriction="25.0" scaleEffects="1.0" delay="0.0"/>
+  <FFBDevice name="Microsoft SideWinder Force Feedback Wheel (USB)"   scaleForce="1.0" scaleFriction="0.25" baseFriction="0.0" maxFriction="25.0" scaleEffects="1.0" delay="0.0"/>
+  <FFBDevice name="F430 Force Feedback"   						      scaleForce="1.0" scaleFriction="0.9" baseFriction="-15.0" maxFriction="90.0" scaleEffects="1.0" delay="0.0"/>
+  <FFBDevice name="Thrustmaster T500 RS Racing wheel"   			  scaleForce="0.6" scaleFriction="0.35" baseFriction="0.0" maxFriction="35.0" scaleEffects="0.85" delay="0.0"/>
+  <FFBDevice name="RGT Force Feedback Pro"          				  scaleForce="1.0" scaleFriction="0.6" baseFriction="-25.0" maxFriction="60.0" scaleEffects="1.0" delay="0.0"/>
+
+  <!-- Wheels Japanese OS -->
+  <FFBDevice name="Logicool G25 Racing Wheel USB"   				  scaleForce="1.0" scaleFriction="1.0" baseFriction="0.0" maxFriction="100.0" scaleEffects="1.0" delay="0.0"/>
+  <FFBDevice name="Logicool G27 Racing Wheel USB"   				  scaleForce="1.0" scaleFriction="1.0" baseFriction="0.0" maxFriction="100.0" scaleEffects="1.0" delay="0.0"/>
+  <FFBDevice name="Logicool Driving Force GT USB"   				  scaleForce="1.0" scaleFriction="1.0" baseFriction="0.0" maxFriction="100.0" scaleEffects="1.0" delay="0.0"/>
+  <FFBDevice name="Logicool Driving Force Pro USB"  				  scaleForce="0.75" scaleFriction="0.2" baseFriction="0.0" maxFriction="20.0"  scaleEffects="1.0" delay="0.0"/>
+  <FFBDevice name="Logicool Driving Force USB"   					  scaleForce="0.7" scaleFriction="0.05" baseFriction="0.0" maxFriction="5.0" scaleEffects="1.0" delay="0.0"/>
+  <FFBDevice name="Logicool MOMO Racing USB"   						  scaleForce="1.0" scaleFriction="0.25" baseFriction="0.0" maxFriction="25.0" scaleEffects="1.0" delay="0.0"/>
+
+</FFBDevices>

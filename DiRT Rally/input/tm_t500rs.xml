@@ -1,0 +1,202 @@
+<!-- Action map for the Thrustmaster T500 RS -->
+<ActionMap name="tm_t500_rs" device_type_0="{B65E044F-0000-0000-0000-504944564944}" device_type_1="{B660044F-0000-0000-0000-504944564944}" priority="0" shouldbindalldevicetypes="true">
+
+  <!-- In Game Actions -->
+  <Action id="Accelerate">
+    <Axis id="di_z_axis_rotation" type="uniDirNeg" deadzone="0.0" saturation="1.0" />
+  </Action>
+  <Action id="Brake">
+    <Axis id="di_y_axis"          type="uniDirNeg" deadzone="0.0" saturation="1.0" />
+  </Action>
+  <Action id="Clutch">
+    <Axis id="di_slider_0"        type="uniDirNeg" deadzone="0.2" saturation="0.8" />
+  </Action>
+  <Action id="Handbrake">
+    <Axis id="di_button_4" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Steer Left">
+    <Axis id="di_x_axis" type="biDirLower" deadzone="0.0" saturation="1.0" />
+  </Action>
+  <Action id="Steer Right">
+    <Axis id="di_x_axis" type="biDirUpper" deadzone="0.0" saturation="1.0" />
+  </Action>
+  <Action id="Change View">
+    <Axis id="di_button_3"  restricted_device="{B65E044F-0000-0000-0000-504944564944}"/>
+  </Action>
+  <Action id="Gear Up">
+    <Axis id="di_button_1" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+    <Axis id="di_button_9" restricted_device="{B660044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Gear Down">
+    <Axis id="di_button_0" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+    <Axis id="di_button_8" restricted_device="{B660044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Gear 1">
+    <Axis id="di_button_0" restricted_device="{B660044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Gear 2">
+    <Axis id="di_button_1" restricted_device="{B660044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Gear 3">
+    <Axis id="di_button_2" restricted_device="{B660044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Gear 4">
+    <Axis id="di_button_3" restricted_device="{B660044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Gear 5">
+    <Axis id="di_button_4" restricted_device="{B660044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Gear 6" >
+    <Axis id="di_button_5" restricted_device="{B660044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Gear 7" >
+    <Axis id="di_button_6" restricted_device="{B660044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Gear Reverse" >
+    <Axis id="di_button_7" restricted_device="{B660044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Look Left">
+    <Axis id="di_dpad_0_left" />
+  </Action>
+  <Action id="Look Right">
+    <Axis id="di_dpad_0_right" />
+  </Action>
+  <Action id="Look Up">
+    <Axis id="di_dpad_0_up" />
+  </Action>
+  <Action id="Look Down">
+    <Axis id="di_dpad_0_down" />
+  </Action>
+  <Action id="Look Back">
+    <Axis id="di_button_5" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Pause">
+    <Axis id="di_button_7" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Instant Replay">
+    <Axis id="" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Boost">
+    <Axis id="" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Reset Vehicle">
+    <Axis id="di_button_2" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+
+  <!-- FE Actions -->
+  <Action id="Menu Left">
+    <Axis id="di_dpad_0_left" />
+  </Action>
+  <Action id="Menu Right">
+    <Axis id="di_dpad_0_right" />
+  </Action>
+  <Action id="Menu Up">
+    <Axis id="di_dpad_0_up" />
+  </Action>
+  <Action id="Menu Down">
+    <Axis id="di_dpad_0_down" />
+  </Action>
+  <Action id="Menu Select">
+    <Axis id="di_button_5" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Menu Back">
+    <Axis id="di_button_4" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Menu Button3">
+    <Axis id="di_button_3" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Menu Button4">
+    <Axis id="di_button_2" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Menu Right Shoulder">
+    <Axis id="di_button_1" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Menu Left Shoulder">
+    <Axis id="di_button_0"  restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Menu Start Button">
+    <Axis id="di_button_7" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Fe View Tweak Left">
+    <Axis id="di_x_axis" type="biDirLower" deadzone="0.0" saturation="1.0" />
+  </Action>
+  <Action id="Fe View Tweak Right">
+    <Axis id="di_x_axis" type="biDirUpper" deadzone="0.0" saturation="1.0" />
+  </Action>
+  <Action id="Fe View Tweak In">
+    <Axis id="di_z_axis_rotation" type="uniDirNeg" deadzone="0.0" saturation="1.0" />
+  </Action>
+  <Action id="Fe View Tweak Out">
+    <Axis id="di_y_axis"          type="uniDirNeg" deadzone="0.0" saturation="1.0" />
+  </Action>
+
+  <!-- Replay/Youtube Actions -->
+  <Action id="Replay Rewind">
+    <Axis id="di_x_axis" type="biDirLower" deadzone="0.0" saturation="1.0" />
+    <Axis id="di_y_axis" type="uniDirNeg"  deadzone="0.0" saturation="1.0" />
+  </Action>
+  <Action id="Replay Fast Forward">
+    <Axis id="di_x_axis"          type="biDirUpper" deadzone="0.0" saturation="1.0" />
+    <Axis id="di_z_axis_rotation" type="uniDirNeg"  deadzone="0.0" saturation="1.0" />
+  </Action>
+  <Action id="Replay Pause">
+    <Axis id="di_button_5" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Replay Next Camera">
+    <Axis id="di_button_1" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Replay Prev Camera">
+    <Axis id="di_button_0"  restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Replay Jump In">
+    <Axis id="di_button_3" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Replay Exit">
+    <Axis id="di_button_4" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Replay UI On Off">
+    <Axis id="di_button_6" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Replay Youtube">
+    <Axis id="di_button_2" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Youtube Drag Left">
+    <Axis id="di_button_0" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Youtube Drag Right">
+    <Axis id="di_button_1" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Youtube Speed Up">
+    <Axis id="di_dpad_0_up" />
+  </Action>
+  <Action id="Youtube Speed Down">
+    <Axis id="di_dpad_0_down" />
+  </Action>
+  <Action id="Youtube Upload">
+    <Axis id="di_button_3" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Youtube Exit">
+    <Axis id="di_button_4" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+
+  <!-- Spectator Actions -->
+  <Action id="Spectator Next Camera">
+    <Axis id="di_button_1" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Spectator Previous Camera">
+    <Axis id="di_button_0" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Spectator UI On Off">
+    <Axis id="di_button_6" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+  <Action id="Spectator List On Off">
+    <Axis id="di_button_3" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+	<Action id="Cycle Forward On Board Cameras">
+    <Axis id="di_button_1" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+	</Action>
+	<Action id="Activate Replay System">
+    <Axis id="di_button_0" restricted_device="{B65E044F-0000-0000-0000-504944564944}" />
+  </Action>
+
+</ActionMap>

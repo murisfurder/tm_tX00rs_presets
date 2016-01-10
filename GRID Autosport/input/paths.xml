@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataset>
+  <!-- Action map presets -->
+  <xmlreader processor="Input" filename="input/dinput_default.xml"              map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+  <xmlreader processor="Input" filename="input/ftec_csr_elite.xml"          map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+  <xmlreader processor="Input" filename="input/ftec_clubsport.xml"          map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+  <xmlreader processor="Input" filename="input/ftec_porsche_wheel.xml"          map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+  <xmlreader processor="Input" filename="input/keyboard.xml"                    map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+  <xmlreader processor="Input" filename="input/keyboard_azerty.xml"                    map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+  <xmlreader processor="Input" filename="input/lg_driving_force_ex.xml"            map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+  <xmlreader processor="Input" filename="input/lg_driving_force_pro.xml"        map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+  <xmlreader processor="Input" filename="input/lg_driving_force_gt.xml"         map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+  <xmlreader processor="Input" filename="input/lg_dual_action.xml"              map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+  <xmlreader processor="Input" filename="input/lg_f510.xml"                     map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+  <xmlreader processor="Input" filename="input/lg_f710_and_cordless_rumblepad_2.xml"                     map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+  <xmlreader processor="Input" filename="input/lg_g25.xml"                      map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+  <xmlreader processor="Input" filename="input/lg_g27.xml"                      map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+  <xmlreader processor="Input" filename="input/lg_momo_racing.xml"              map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+  <xmlreader processor="Input" filename="input/tm_dual_trigger_3_in_1.xml"      map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+  <xmlreader processor="Input" filename="input/tm_f430_ffb.xml"                 map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+  <xmlreader processor="Input" filename="input/tm_rgt_ffb_pro.xml"              map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+  <xmlreader processor="Input" filename="input/tm_fgt_3_in_1.xml"              map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+  <xmlreader processor="Input" filename="input/tm_t500rs.xml"                   map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+  <xmlreader processor="Input" filename="input/tm_t300rs.xml"                   map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+  <xmlreader processor="Input" filename="input/xinput_pad_0.xml"  map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+  <xmlreader processor="Input" filename="input/xinput_pad_1.xml"  map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+  <xmlreader processor="Input" filename="input/xinput_wheel.xml"                map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+  <xmlreader processor="Input" filename="input/xinput_speed_wheel.xml"          map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+<xmlreader processor="Input" filename="input/hama_urage_ess.xml"          map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+<xmlreader processor="Input" filename="input/hama_urage_vendetta_cr.xml"          map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+<xmlreader processor="Input" filename="input/hama_urage_vendetta.xml"          map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+<xmlreader processor="Input" filename="input/hama_urage_vendetta_wireless.xml"          map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+<xmlreader processor="Input" filename="input/sl_strikefx.xml"          map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+<xmlreader processor="Input" filename="input/sl_darkfire.xml"          map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+<xmlreader processor="Input" filename="input/sl_drift.xml"          map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+<xmlreader processor="Input" filename="input/tm_tx.xml"          map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+
+  <!-- Various configuration xml's -->
+  <xmlreader processor="InputStrings" filename="input/icons.xml"   map="UPDATE" pool="UPDATE_TEMPORARY" userdata="strings" />
+  <xmlreader processor="InputStrings" filename="input/strings.xml" map="UPDATE" pool="UPDATE_TEMPORARY" userdata="strings" />
+  
+  <!-- TiltTouch xml's -->
+  <xmlreader processor="Input" filename="input/tilttouch.xml"                map="UPDATE" pool="UPDATE_TEMPORARY" userdata="presets" />
+</dataset>

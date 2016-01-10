@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<FFBDevices>
+	<!-- Device setup for force feedback
+	This file holds the list of predefined device setups.
+	         name= Device name to display
+	   scaleForce= scale of linear wheel forces on this device
+	scaleFriction= scale of friction forces on this device
+   baseFriction= base friction value, can be negative for even lighter feel
+    maxFriction= upper cap of friction values sent to device
+	 scaleEffects= scale of effects' forces
+	        delay= delay of force feedback in seconds-->
+
+  <!-- Default Devices -->
+  <FFBDevice name="default" scaleForce="1.0" scaleFriction="1.0" baseFriction="0.0" maxFriction="10.0" nativeFriction="0" scaleEffects="1.0" delay="0.0"/>
+
+  <!-- Controllers -->
+  <FFBDevice name="xinput_pad" scaleEffects="0.8"/> <!-- XInput joypad -->
+  <FFBDevice name="xinput_speed_wheel" scaleEffects="10.0"/> <!-- XInput Speed Wheel -->
+  <FFBDevice name="{C219046D-0000-0000-0000-504944564944}" scaleEffects="10.0"/> <!-- Logitech Cordless RumblePad 2 (F710) -->
+  <FFBDevice name="{C218046D-0000-0000-0000-504944564944}" scaleEffects="2.5"/> <!-- Logitech RumblePad 2 (F510) -->
+  <FFBDevice name="{B323044F-0000-0000-0000-504944564944}" scaleEffects="5.0"/> <!-- Thrustmaster Dual Trigger 3-in-1 -->
+  <FFBDevice name="{D003044F-0000-0000-0000-504944564944}" scaleEffects="2.0"/> <!-- Thrustmaster Run 'N' Drive Rumble Force -->
+  <FFBDevice name="{D008044F-0000-0000-0000-504944564944}" scaleEffects="3.0"/> <!-- Thrustmaster Run 'N' Drive Wireless -->
+  <FFBDevice name="{D007044F-0000-0000-0000-504944564944}" scaleEffects="5.0"/> <!-- Thrustmaster T-Mini Wireless 3-in-1 -->
+<FFBDevice name="{1C171C10-0000-0000-0000-504944564944}" scaleEffects="0.8"/> <!-- Hama uRage ESS -->
+<FFBDevice name="{00020079-0000-0000-0000-504944564944}" scaleEffects="0.8"/> <!-- Hama Vendetta -->
+<FFBDevice name="{014520D6-0000-0000-0000-504944564944}" scaleEffects="0.8"/> <!-- Hama Vendetta Cr-->
+<FFBDevice name="{550611C0-0000-0000-0000-504944564944}" scaleEffects="0.8"/> <!-- Hama Vendetta Wireless -->
+<FFBDevice name="{00030E8F-0000-0000-0000-504944564944}" scaleEffects="0.8"/> <!-- SPEEDLINK Strike FX/Darkfire -->
+
+
+
+  <!-- Wheels-->
+  <!-- XInput wheel -->
+  <FFBDevice name="xinput_wheel" scaleEffects="3.0"/>
+  <!-- Logitech G25 -->
+  <FFBDevice name="{C299046D-0000-0000-0000-504944564944}" scaleForce="1.2" scaleFriction="0.3" baseFriction="0.05" maxFriction="100.0" scaleEffects="1.19" delay="0.0"/>
+  <!-- Logitech G27 -->
+  <FFBDevice name="{C29B046D-0000-0000-0000-504944564944}" scaleForce="1.2" scaleFriction="0.3" baseFriction="0.05" maxFriction="100.0" scaleEffects="1.19" delay="0.0"/>
+  <!-- Logitech Driving Force GT -->
+  <FFBDevice name="{C29A046D-0000-0000-0000-504944564944}" scaleForce="1.0" scaleFriction="1.0" baseFriction="0.0" maxFriction="100.0" scaleEffects="1.0" delay="0.0"/>
+  <!-- Logitech Driving Force Pro -->
+  <FFBDevice name="{C298046D-0000-0000-0000-504944564944}" scaleForce="0.75" scaleFriction="0.2" baseFriction="0.0" maxFriction="20.0" scaleEffects="1.0" delay="0.0"/>
+  <!-- Logitech Driving/Formula Force -->
+  <FFBDevice name="{C294046D-0000-0000-0000-504944564944}" scaleForce="1.0" scaleFriction="0.2" baseFriction="0.0" maxFriction="100.0" scaleEffects="1.0" delay="0.0"/>
+  <!-- Logitech Momo Racing -->
+  <FFBDevice name="{CA03046D-0000-0000-0000-504944564944}" scaleForce="1.0" scaleFriction="0.25" baseFriction="0.0" maxFriction="25.0" scaleEffects="1.0" delay="0.0"/>
+  <!-- Thrustmaster FGT Rumble 3-in-1 -->
+  <FFBDevice name="{B655044F-0000-0000-0000-504944564944}" scaleForce="1.0" scaleFriction="1.0" baseFriction="0.0" maxFriction="100.0" scaleEffects="1.0" delay="0.0"/>
+  <!-- Fanatec Porsche Wheel (all fanatec wheels) -->
+  <FFBDevice name="{01970EB7-0000-0000-0000-504944564944}" scaleForce="1.0"  scaleFriction="0.6"  baseFriction="-25.0" maxFriction="60.0"  scaleEffects="1.2" delay="0.0"/>
+  <!-- Fanatec CSR Wheel Base -->
+  <FFBDevice name="{038E0EB7-0000-0000-0000-504944564944}" scaleForce="1.0"  scaleFriction="0.6"  baseFriction="-25.0" maxFriction="60.0"  scaleEffects="1.2" delay="0.0"/>
+  <!-- Thrustmaster F430 Force Feedback -->
+  <FFBDevice name="{B65A044F-0000-0000-0000-504944564944}" scaleForce="1.0" scaleFriction="0.9" baseFriction="-15.0" maxFriction="90.0" scaleEffects="1.0" delay="0.0"/>
+  <!-- Thrustmaster T500 RS (firmware 33) -->
+  <FFBDevice name="{B65D044F-0000-0000-0000-504944564944}" scaleForce="0.6" scaleFriction="0.35" baseFriction="0.0" maxFriction="35.0" scaleEffects="0.85" delay="0.0"/>
+  <!-- Thrustmaster T500 RS (firmware 37) -->
+  <FFBDevice name="{B65E044F-0000-0000-0000-504944564944}" scaleForce="0.6" scaleFriction="0.35" baseFriction="0.0" maxFriction="35.0" scaleEffects="0.85" delay="0.0"/>
+  <!-- Thrustmaster T300 RS -->
+  <FFBDevice name="{B66E044F-0000-0000-0000-504944564944}" scaleForce="0.6" scaleFriction="0.35" baseFriction="0.0" maxFriction="35.0" scaleEffects="0.85" delay="0.0"/>
+  <!-- Thrustmaster RGT Force Feedback Pro -->
+  <FFBDevice name="{B653044F-0000-0000-0000-504944564944}" scaleForce="1.0" scaleFriction="0.6" baseFriction="-25.0" maxFriction="60.0" scaleEffects="1.0" delay="0.0"/>
+  <!-- SPEEDLINK Drift O.Z. -->
+  <FFBDevice name="{335211FF-0000-0000-0000-504944564944}" scaleForce="1.2" scaleFriction="0.3" baseFriction="0.05" maxFriction="100.0" scaleEffects="1.19" delay="0.0"/>
+  <!-- Thrustmaster TX -->
+  <FFBDevice name="{B669044F-0000-0000-0000-504944564944}" scaleForce="1.2" scaleFriction="0.3" baseFriction="0.05" maxFriction="100.0" scaleEffects="1.19" delay="0.0"/>
+
+</FFBDevices>
